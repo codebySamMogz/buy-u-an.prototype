@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.return{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.return a{
+    text-decoration: none;
+    color: white;
+}
+.retshop{
+    margin-right: 10px;
+    border: 1px solid lightskyblue;
+    padding: 10px;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: lightskyblue;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 10px;
+
+}
+.retshop:hover{
+    background-color: white;
+    border-color: lightskyblue;
+    color: lightskyblue;
+    margin-top: -3px;
+    margin-bottom: 13px;
+}
+.rethome{
+    margin-left: 10px;
+    border: 1px solid rgb(217, 216, 216);
+    padding: 10px;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: rgb(217, 216, 216);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rethome:hover{
+    background-color: white;
+    border-color: rgb(217, 216, 216);
+    color: rgb(217, 216, 216);
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+.main h1{
+    text-align: center;
+}
+.main p{
+    display: inline-flex;
+    margin: 20px;
+    margin-left: 60px;
+}
+.main h3{
+    margin-left: 400px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.r input{
+    margin: 50px;
+}
+.r{
+    margin-top: -40px;
+    margin-left: 50px;
+}
+.r2{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.r2 input{
+    margin: 50px;
+}
+.r3{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.r3 input{
+    margin: 50px;
+}
+.r4{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.r4 input{
+    margin: 50px;
+}
+.r5{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.r5 input{
+    margin: 50px;
+}
+.xp{
+    margin-top: -120px;
+    float: right;
+    margin-right: 400px;
+}
+.border{
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+}
+h5{
+    margin-top: 70px;
+    margin-left: 400px;
+}
+.comment{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.comment textarea{
+    height: 100px;
+    width: 670px;
+    resize: none;
+    padding: 10px;
+}
+.comment{
+    padding-top: -20px;
+}
+.send{
+    text-align: center;
+    margin-top: 50px;
+}
+.feedbtn{
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+.feedbtn:hover{
+    background-color: rgb(135, 135, 135);
+    color: white;
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.link a{
+    text-decoration: none;
+}
+.link a:hover{
+    color: rgb(255, 111, 0);
+}

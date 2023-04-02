@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: linear-gradient(rgba(173, 216, 230, 5),rgb(255, 255, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main{
+ margin-left: 50px;
+ margin-right: 50px;
+
+}
+header{
+    margin-top: 20px;
+}
+.lgphoto{
+    height: 50px;
+    width: 180px;
+}
+.linklg{
+    width: 180px;
+}
+.navbar{
+    float: right;
+    display: flex;
+    margin-top: -50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.log{
+    margin-right: 30px;
+}
+.log:hover{
+    border-bottom: 2px solid;
+}
+.sign:hover{
+    border-bottom: 2px solid;
+
+}
+.imglogo{
+    margin-top: 4.5%;
+    float: right;
+    margin-right: 20%;
+}
+.bgimage{
+    width: 400px;
+    height: 600px;
+}
+.des{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.des h1{
+    font-size: 30px;
+}
+.btn{
+    margin-top: 2%;
+}
+.btn .b{
+    background-color: rgb(135, 206, 250);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: lightskyblue;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.btn .b:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: lightskyblue;
+    border-color: lightskyblue;
+    width: 250px;
+    margin-left: -25px;
+    box-shadow: 10px 10px 20px;
+}
+
+/* -------- */
+
+.container{
+    background-color: rgba(0, 0, 0, 0.226);
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out; 
+}
+.container:target{
+    visibility: visible;
+    opacity: 1;
+}
+.close{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.close:hover{
+    color: red;
+}
+.box{
+    padding: 20px;
+    border: 2px solid;
+    border-color: lightskyblue;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 615px;
+}
+.box h1{
+    top: 0;
+    color: lightskyblue;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+.content{
+    margin-top:70px;
+}
+.bar{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    width: 250px;
+    height: 20px;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+}
+.submit{
+    margin-bottom: 5px;
+    border-color: white;
+    background-color: lightskyblue;
+    color: white;
+    padding-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 45px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid lightskyblue;
+}
+.sub{
+    text-decoration: none;
+}
+.submit:hover{
+    background-color: white;
+    color: lightskyblue;
+    border: 1px solid lightskyblue;
+}
+.container2{
+    background-color: rgba(0, 0, 0, 0.226);;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out; 
+}
+.container2:target{
+    visibility: visible;
+    opacity: 1;
+}
+.box2{
+    padding: 20px;
+    border: 2px solid;
+    border-color: lightskyblue;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 515px;
+}
+.box2 h1{
+    top: 0;
+    color: lightskyblue;
+    border-bottom: 2px solid;
+    padding-bottom: 50px;
+}
+.content2{
+    margin-top:90px;
+}
+.bar2{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    width: 250px;
+    height: 20px;
+    border: 1px solid;
+}
+.bar2_age{
+    background-color: white;
+    color: lightskyblue;
+    padding: 5px;
+    border-radius: 6px;
+    height: 20px;
+    width: 25px;
+    margin-right: 220px;
+}
+.label2{
+    margin-right: 10px;
+    color: lightskyblue;
+}
+.close2{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+.close2:hover{
+    color: red;
+}
+.label{
+    color: lightskyblue;
+}
+.submit2{
+    margin-bottom: 5px;
+    border-color: white;
+    background-color: lightskyblue;
+    color: white;
+    padding-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 150px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid lightskyblue;
+}
+.submit2:hover{
+    background-color: white;
+    color: lightskyblue;
+    border: 1px solid lightskyblue;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .bgimage{
+        height: 80%;
+        width: 80%;
+        margin-left: 200px;
+    }
+    .navbar a{
+        font-size: 25px;
+    }
+    .des{
+        margin-top: 1000px;
+        margin-left: 100px;
+        font-size: 40px;
+    }
+    .btn .b{
+        padding: 30px;
+        font-size: 30px;
+        width: 400px;
+    }
+    .btn .b:hover{
+        width: 450px;
+    }
+    .lgphoto{
+        height: 50px;
+        width: 200px;
+    }
+    .box{
+        height: 750px;
+        width: 700px;
+        margin-top: 200px;
+        margin-left: 120px;
+    }
+    .box2{
+        height: 1000px;
+        width: 700px;
+        margin-top: 200px;
+        margin-left: 120px;
+    }
+    .label{
+        font-size: 25px;
+    }
+    .content{
+        margin-top:150px;
+    }
+    .bar{
+        padding: 10px;
+        width: 400px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .content2{
+        margin-top:150px;
+    }
+    .bar2{
+        padding: 10px;
+        width: 400px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .forgot{
+        font-size: 20px;
+    }
+    .submit{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        height: 80px;
+        width: 300px;
+        font-size: 20px;
+    }
+    .submit2{
+        height: 80px;
+        width: 300px;
+        font-size: 20px;
+    }
+    .submit:hover{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        height: 80px;
+        width: 300px;
+        font-size: 20px;
+    }
+    .submit2:hover{
+        height: 80px;
+        width: 300px;
+        font-size: 20px;
+    }
+    .close{
+        font-size: 25px;
+    }
+    .box h1{
+        font-size: 35px;
+    }
+    .close2{
+        font-size: 25px;
+    }
+    .box2 h1{
+        font-size: 35px;
+    }
+
+}

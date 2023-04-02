@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.return{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.return a{
+    text-decoration: none;
+    color: white;
+}
+.retshop{
+    margin-right: 10px;
+    border: 1px solid lightskyblue;
+    padding: 10px;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: lightskyblue;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 10px;
+
+}
+.retshop:hover{
+    background-color: white;
+    border-color: lightskyblue;
+    color: lightskyblue;
+    margin-top: -3px;
+    margin-bottom: 13px;
+}
+.rethome{
+    margin-left: 10px;
+    border: 1px solid rgb(217, 216, 216);
+    padding: 10px;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: rgb(217, 216, 216);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rethome:hover{
+    background-color: white;
+    border-color: rgb(217, 216, 216);
+    color: rgb(217, 216, 216);
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+.border1{
+    border-bottom: 2px solid black;
+    margin-top: 50px;
+}
+.main h1{
+    text-align: center;
+}
+.form{
+    margin-top: 50px;
+    margin-left: 540px;
+}
+.fname{
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+.lname{
+    margin-left: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+.email{
+    margin-top: 50px;
+    padding: 10px;
+    width: 445px;
+    height: 20px;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+.phone{
+    margin-top: 50px;
+    padding: 10px;
+    width: 445px;
+    height: 20px;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+.form p{
+    margin-top: 50px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: grey;
+}
+.question{
+    width: 445px;
+    background-color: whitesmoke;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.submit{
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    transition: 0.3s;
+}
+.submit:hover{
+    background-color: rgb(135, 135, 135);
+    color: white;
+}
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.link a{
+    text-decoration: none;
+}
+.link a:hover{
+    color: rgb(255, 111, 0);
+}
